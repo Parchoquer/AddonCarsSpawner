@@ -31,7 +31,7 @@ Citizen.CreateThread(function()
             end)
 
             for _, k in pairs(SortedKeys(config.cars)) do
-                RageUI.ButtonWithStyle(k, nil, {}, true, function(_, _, Selected)
+                RageUI.ButtonWithStyle(k, nil, { RightLabel = "~b~→" }, true, function(_, _, Selected)
                     if (Selected) then
                         list = config.cars[k]
                     end
