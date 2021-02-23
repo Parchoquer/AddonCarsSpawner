@@ -3,9 +3,9 @@
 --##################################--
 
 config = {}
-config.openMenu = 166 -- F5
-config.subtitle = '~b~Wahoo'
-config.banner = 'parchoquer'
+config.openMenu = 166 -- F5 > https://docs.fivem.net/docs/game-references/controls/
+config.subtitle = '~b~Custom Your Title' -- Title of menu
+config.banner = 'graph0001' -- Banner name
 config.cooldown = 5000 -- In ms
 config.lang = 'fr'
 
